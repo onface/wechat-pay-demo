@@ -17,6 +17,7 @@ var data = {
     partner_trade_no: md5(`${Math.random()}`),
     openid: config.openid,
     amount: 1,
+    // 还有需要添加一个场景id @2244137744@qq.com 记得看完加上去
     check_name: 'NO_CHECK',
     spbill_create_ip: '192.168.0.1',
     desc: '测试发钱'
