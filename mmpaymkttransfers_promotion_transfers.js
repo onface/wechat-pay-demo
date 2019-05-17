@@ -35,7 +35,7 @@ sortKey.forEach(function (key) {
     queryString.push(`${key}=${data[key]}`)
 })
 
-queryString = queryString.join('&') + `&key=` + config.api_key
+queryString = queryString.join('&') + `&key=` + config.mch_secret_key
 var sign = md5(queryString).toUpperCase()
 data.sign = sign
 

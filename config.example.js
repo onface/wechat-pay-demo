@@ -1,7 +1,7 @@
 module.exports = {
     // https://pay.weixin.qq.com/index.php/core/cert/api_cert API密钥
     // 微信商户平台>账户中心>安全中心>api安全>api密钥>设置密钥
-    api_key: '',
+    mch_secret_key: '',
     // https://pay.weixin.qq.com/index.php/extend/pay_setting/ma APPID绑定授权申请
     // 微信商户平台>产品中心>APPID绑定授权申请
     // 去绑定另外一个微信公众号id
